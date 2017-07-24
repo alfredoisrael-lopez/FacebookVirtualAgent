@@ -1,0 +1,675 @@
+{
+    "name": "Mis Recomendaciones",
+    "created": "2017-06-23T18:12:05.688Z",
+    "intents": [{
+        "intent": "saludo",
+        "created": "2017-06-23T18:29:25.560Z",
+        "updated": "2017-06-25T21:49:15.546Z",
+        "examples": [{
+            "text": "buenos días",
+            "created": "2017-06-23T19:09:51.246Z",
+            "updated": "2017-06-23T19:09:51.246Z"
+        }, {
+            "text": "buenas noches",
+            "created": "2017-06-23T19:10:01.173Z",
+            "updated": "2017-06-23T19:10:01.173Z"
+        }, {
+            "text": "buenas tardes",
+            "created": "2017-06-23T19:09:56.024Z",
+            "updated": "2017-06-23T19:09:56.024Z"
+        }, {
+            "text": "hola",
+            "created": "2017-06-23T18:29:30.495Z",
+            "updated": "2017-06-23T18:29:30.495Z"
+        }, {
+            "text": "hola, que tal?",
+            "created": "2017-06-23T18:29:39.518Z",
+            "updated": "2017-06-23T18:29:39.518Z"
+        }, {
+            "text": "como estas?",
+            "created": "2017-06-23T19:09:32.335Z",
+            "updated": "2017-06-23T19:09:32.335Z"
+        }],
+        "description": null
+    }, {
+        "intent": "preguntar_por_encuestas",
+        "created": "2017-07-04T01:33:35.187Z",
+        "updated": "2017-07-04T04:10:43.098Z",
+        "examples": [{
+            "text": "que actividades",
+            "created": "2017-07-04T01:34:44.292Z",
+            "updated": "2017-07-04T01:34:44.292Z"
+        }, {
+            "text": "Qué actividades realizan",
+            "created": "2017-07-04T01:34:54.151Z",
+            "updated": "2017-07-04T01:34:54.151Z"
+        }, {
+            "text": "que actividades comunmente",
+            "created": "2017-07-04T01:35:03.498Z",
+            "updated": "2017-07-04T01:35:03.498Z"
+        }, {
+            "text": "que realizan las personas",
+            "created": "2017-07-04T01:35:09.802Z",
+            "updated": "2017-07-04T01:35:09.802Z"
+        }, {
+            "text": "que hacen por aquí",
+            "created": "2017-07-04T03:48:39.000Z",
+            "updated": "2017-07-04T03:48:39.000Z"
+        }, {
+            "text": "que hacen las personas",
+            "created": "2017-07-04T04:10:43.098Z",
+            "updated": "2017-07-04T04:10:43.098Z"
+        }, {
+            "text": "que hace la gente",
+            "created": "2017-07-04T04:10:27.392Z",
+            "updated": "2017-07-04T04:10:27.392Z"
+        }, {
+            "text": "que opinan",
+            "created": "2017-07-04T01:33:47.251Z",
+            "updated": "2017-07-04T01:33:47.251Z"
+        }, {
+            "text": "quería conocer la encuesta",
+            "created": "2017-07-04T01:34:00.157Z",
+            "updated": "2017-07-04T01:34:00.157Z"
+        }, {
+            "text": "quiero conocer la encuesta",
+            "created": "2017-07-04T01:34:20.402Z",
+            "updated": "2017-07-04T01:34:20.402Z"
+        }, {
+            "text": "queria conocer las encuestas",
+            "created": "2017-07-04T01:34:27.543Z",
+            "updated": "2017-07-04T01:34:27.543Z"
+        }, {
+            "text": "que opina la gente",
+            "created": "2017-07-04T01:34:38.026Z",
+            "updated": "2017-07-04T01:34:38.026Z"
+        }],
+        "description": null
+    }, {
+        "intent": "preferencia_de_periodo_del_dia",
+        "created": "2017-07-10T20:31:19.831Z",
+        "updated": "2017-07-10T23:58:01.061Z",
+        "examples": [{
+            "text": "noche",
+            "created": "2017-07-10T23:55:51.971Z",
+            "updated": "2017-07-10T23:55:51.971Z"
+        }, {
+            "text": "por la mañana",
+            "created": "2017-07-10T20:33:23.450Z",
+            "updated": "2017-07-10T23:55:38.780Z"
+        }, {
+            "text": "día",
+            "created": "2017-07-10T23:55:44.905Z",
+            "updated": "2017-07-10T23:55:44.905Z"
+        }, {
+            "text": "quiero conocer que hay durante la noche",
+            "created": "2017-07-10T20:34:10.890Z",
+            "updated": "2017-07-10T20:34:10.890Z"
+        }, {
+            "text": "quiero conocer que hay durante la tarde",
+            "created": "2017-07-10T20:34:01.508Z",
+            "updated": "2017-07-10T20:34:01.508Z"
+        }, {
+            "text": "que hay en la noche",
+            "created": "2017-07-10T20:33:49.185Z",
+            "updated": "2017-07-10T20:33:49.185Z"
+        }, {
+            "text": "que hay en la mañana",
+            "created": "2017-07-10T20:33:44.855Z",
+            "updated": "2017-07-10T20:33:44.855Z"
+        }, {
+            "text": "me gustaría conocer por la tarde",
+            "created": "2017-07-10T20:33:11.718Z",
+            "updated": "2017-07-10T20:33:11.718Z"
+        }, {
+            "text": "me gustaría conocer por la noche",
+            "created": "2017-07-10T20:33:02.115Z",
+            "updated": "2017-07-10T20:33:02.115Z"
+        }, {
+            "text": "me gustaría conocer por la mañana",
+            "created": "2017-07-10T20:32:54.593Z",
+            "updated": "2017-07-10T20:32:54.593Z"
+        }, {
+            "text": "en la tarde",
+            "created": "2017-07-10T20:32:36.125Z",
+            "updated": "2017-07-10T20:32:36.125Z"
+        }, {
+            "text": "en la noche",
+            "created": "2017-07-10T20:32:32.675Z",
+            "updated": "2017-07-10T20:32:32.675Z"
+        }, {
+            "text": "en la mañana",
+            "created": "2017-07-10T20:32:21.463Z",
+            "updated": "2017-07-10T20:32:21.463Z"
+        }, {
+            "text": "por la tarde",
+            "created": "2017-07-10T20:32:12.767Z",
+            "updated": "2017-07-10T20:32:12.767Z"
+        }, {
+            "text": "por la noche",
+            "created": "2017-07-10T20:32:07.514Z",
+            "updated": "2017-07-10T20:32:07.514Z"
+        }, {
+            "text": "que hay durante la tarde",
+            "created": "2017-07-10T20:32:01.586Z",
+            "updated": "2017-07-10T20:32:01.586Z"
+        }, {
+            "text": "quiero conocer que hay durante el día",
+            "created": "2017-07-10T20:31:51.108Z",
+            "updated": "2017-07-10T20:31:51.108Z"
+        }, {
+            "text": "de preferencia",
+            "created": "2017-07-10T20:31:37.095Z",
+            "updated": "2017-07-10T20:31:37.095Z"
+        }, {
+            "text": "mañana",
+            "created": "2017-07-10T23:58:01.061Z",
+            "updated": "2017-07-10T23:58:01.061Z"
+        }, {
+            "text": "tarde",
+            "created": "2017-07-10T23:55:56.246Z",
+            "updated": "2017-07-10T23:55:56.246Z"
+        }],
+        "description": null
+    }, {
+        "intent": "despedida",
+        "created": "2017-06-23T19:10:14.895Z",
+        "updated": "2017-06-25T21:49:32.503Z",
+        "examples": [{
+            "text": "hasta pronto",
+            "created": "2017-06-23T19:10:20.674Z",
+            "updated": "2017-06-23T19:10:20.674Z"
+        }, {
+            "text": "hasta luego",
+            "created": "2017-06-23T19:10:24.263Z",
+            "updated": "2017-06-23T19:10:24.263Z"
+        }, {
+            "text": "adios",
+            "created": "2017-06-23T19:10:27.050Z",
+            "updated": "2017-06-23T19:10:27.050Z"
+        }, {
+            "text": "buena suerte",
+            "created": "2017-06-23T19:10:33.309Z",
+            "updated": "2017-06-23T19:10:33.309Z"
+        }, {
+            "text": "muchas gracias",
+            "created": "2017-06-23T19:10:40.581Z",
+            "updated": "2017-06-23T19:10:40.581Z"
+        }, {
+            "text": "bye",
+            "created": "2017-06-25T14:20:38.076Z",
+            "updated": "2017-06-25T14:20:38.076Z"
+        }, {
+            "text": "gracias",
+            "created": "2017-06-25T14:20:48.120Z",
+            "updated": "2017-06-25T14:20:48.120Z"
+        }],
+        "description": null
+    }, {
+        "intent": "preferencia_de_clima",
+        "created": "2017-07-04T03:59:40.136Z",
+        "updated": "2017-07-10T20:47:05.227Z",
+        "examples": [{
+            "text": "en clima",
+            "created": "2017-07-04T03:59:46.852Z",
+            "updated": "2017-07-04T03:59:46.852Z"
+        }, {
+            "text": "lluvioso",
+            "created": "2017-07-10T20:47:05.227Z",
+            "updated": "2017-07-10T20:47:05.227Z"
+        }, {
+            "text": "soleado",
+            "created": "2017-07-10T20:47:01.505Z",
+            "updated": "2017-07-10T20:47:01.505Z"
+        }, {
+            "text": "nublado",
+            "created": "2017-07-10T20:46:57.042Z",
+            "updated": "2017-07-10T20:46:57.042Z"
+        }, {
+            "text": "con clima",
+            "created": "2017-07-04T04:01:28.039Z",
+            "updated": "2017-07-04T04:01:28.039Z"
+        }, {
+            "text": "para un día",
+            "created": "2017-07-04T04:00:57.460Z",
+            "updated": "2017-07-04T04:00:57.460Z"
+        }, {
+            "text": "para un tiempo",
+            "created": "2017-07-04T04:00:47.878Z",
+            "updated": "2017-07-04T04:00:47.878Z"
+        }, {
+            "text": "qué hacen en tiempo",
+            "created": "2017-07-04T04:00:40.162Z",
+            "updated": "2017-07-04T04:00:40.162Z"
+        }, {
+            "text": "que hacen en clima",
+            "created": "2017-07-04T04:00:29.043Z",
+            "updated": "2017-07-04T04:00:29.043Z"
+        }, {
+            "text": "para clima",
+            "created": "2017-07-04T04:00:18.143Z",
+            "updated": "2017-07-04T04:00:18.143Z"
+        }, {
+            "text": "busco para clima",
+            "created": "2017-07-04T04:00:02.487Z",
+            "updated": "2017-07-04T04:00:02.487Z"
+        }, {
+            "text": "busco en clima",
+            "created": "2017-07-04T03:59:58.243Z",
+            "updated": "2017-07-04T03:59:58.243Z"
+        }],
+        "description": null
+    }, {
+        "intent": "conocimiento_promociones",
+        "created": "2017-06-25T14:23:27.486Z",
+        "updated": "2017-07-03T22:06:15.824Z",
+        "examples": [{
+            "text": "hay promociones?",
+            "created": "2017-06-25T14:24:03.595Z",
+            "updated": "2017-06-25T14:24:03.595Z"
+        }, {
+            "text": "q promos hay",
+            "created": "2017-07-03T22:06:15.824Z",
+            "updated": "2017-07-03T22:06:15.824Z"
+        }, {
+            "text": "que promos tienes",
+            "created": "2017-07-03T22:06:08.809Z",
+            "updated": "2017-07-03T22:06:08.809Z"
+        }, {
+            "text": "que promociones tengo aquí en Monterrey",
+            "created": "2017-06-25T14:23:41.283Z",
+            "updated": "2017-06-25T22:18:05.876Z"
+        }, {
+            "text": "que hay alrededor en promociones",
+            "created": "2017-06-25T14:26:53.701Z",
+            "updated": "2017-06-25T14:26:53.701Z"
+        }, {
+            "text": "promociones cerca de mi",
+            "created": "2017-06-25T14:25:25.970Z",
+            "updated": "2017-06-25T14:25:25.970Z"
+        }, {
+            "text": "que promociones tengo en mi ubicación",
+            "created": "2017-06-25T14:24:51.516Z",
+            "updated": "2017-06-25T14:24:51.516Z"
+        }, {
+            "text": "que promociones hay en mi zona",
+            "created": "2017-06-25T14:24:19.649Z",
+            "updated": "2017-06-25T14:24:19.649Z"
+        }, {
+            "text": "que promociones tengo",
+            "created": "2017-06-25T14:23:47.654Z",
+            "updated": "2017-06-25T14:23:47.654Z"
+        }],
+        "description": null
+    }],
+    "updated": "2017-07-11T18:45:00.370Z",
+    "entities": [{
+        "entity": "momento_del_dia",
+        "values": [{
+            "value": "Dia",
+            "created": "2017-07-04T04:20:35.313Z",
+            "updated": "2017-07-04T04:23:39.878Z",
+            "metadata": null,
+            "synonyms": ["tempra", "a la hora del desayuno", "tempranito", "dia", "mañana", "temprano", "día", "antes del medio día"]
+        }, {
+            "value": "Tarde",
+            "created": "2017-07-04T04:21:41.194Z",
+            "updated": "2017-07-04T04:23:55.697Z",
+            "metadata": null,
+            "synonyms": ["tardezon", "tardeson", "por la tarde", "tardecito", "medio día", "después de las 12", "a la hora de la comida"]
+        }, {
+            "value": "Noche",
+            "created": "2017-07-10T20:14:25.828Z",
+            "updated": "2017-07-10T20:14:36.128Z",
+            "metadata": null,
+            "synonyms": ["nocheson", "por la night", "por la noche", "nochecita"]
+        }],
+        "created": "2017-07-04T04:20:31.099Z",
+        "updated": "2017-07-10T20:14:36.128Z",
+        "metadata": null,
+        "description": null
+    }, {
+        "entity": "clima",
+        "values": [{
+            "value": "Lluvioso",
+            "created": "2017-06-25T14:38:32.870Z",
+            "updated": "2017-07-11T18:45:00.370Z",
+            "metadata": null,
+            "synonyms": ["lluvia", "parcialmente lluvioso", "probabilidad de lluvia"]
+        }, {
+            "value": "Soleado",
+            "created": "2017-06-25T14:37:49.536Z",
+            "updated": "2017-07-11T18:44:55.096Z",
+            "metadata": null,
+            "synonyms": ["claro", "sol", "parcialmente soleado", "mayormente soleado"]
+        }, {
+            "value": "Nublado",
+            "created": "2017-06-25T14:37:02.087Z",
+            "updated": "2017-07-11T18:44:51.437Z",
+            "metadata": null,
+            "synonyms": ["nubres grises", "parcialmente nublado", "nubes", "nubladon", "con nubes"]
+        }],
+        "created": "2017-06-25T14:33:55.636Z",
+        "updated": "2017-07-11T18:45:00.370Z",
+        "metadata": null,
+        "description": null,
+        "fuzzy_match": false
+    }, {
+        "entity": "ciudad",
+        "values": [{
+            "value": "Monterrey",
+            "created": "2017-06-26T00:08:26.673Z",
+            "updated": "2017-06-26T00:08:26.673Z",
+            "metadata": null,
+            "synonyms": ["ciudad sin quesadillas", "montalvoland", "MTY", "sultana del norte", "Monterrey"]
+        }, {
+            "value": "CDMX",
+            "created": "2017-06-25T22:20:24.541Z",
+            "updated": "2017-06-25T22:20:24.541Z",
+            "metadata": null,
+            "synonyms": ["CDMX", "defectuoso", "México", "DF", "Cd. de México", "Ciudad de México"]
+        }, {
+            "value": "Oaxaca",
+            "created": "2017-06-26T18:16:58.101Z",
+            "updated": "2017-06-26T18:16:58.101Z",
+            "metadata": null,
+            "synonyms": ["Oaxacaland", "Oaxaca", "OAX"]
+        }, {
+            "value": "Guadalajara",
+            "created": "2017-06-25T23:30:45.987Z",
+            "updated": "2017-07-04T01:30:48.895Z",
+            "metadata": null,
+            "synonyms": ["GDL", "guadalajara", "perla de occidente", "ciudad de las rosas", "perla tapatía", "ciudad de la eterna belleza"]
+        }, {
+            "value": "Jalisco",
+            "created": "2017-07-04T01:31:59.075Z",
+            "updated": "2017-07-04T01:31:59.075Z",
+            "metadata": null,
+            "synonyms": ["jl", "jal.", "jal"]
+        }],
+        "created": "2017-06-25T22:18:22.747Z",
+        "updated": "2017-07-04T01:31:59.075Z",
+        "metadata": null,
+        "description": null
+    }, {
+        "entity": "sys-number",
+        "values": [],
+        "created": "2017-07-04T12:15:44.183Z",
+        "updated": "2017-07-04T12:15:44.183Z",
+        "metadata": null,
+        "description": null
+    }],
+    "language": "es",
+    "metadata": null,
+    "description": "Chatbot para encontrar mediante una conversación, el tipo de actividades recomendadas, que se pueden encontrar en una ubicación",
+    "dialog_nodes": [{
+        "title": null,
+        "output": {},
+        "parent": null,
+        "context": {
+            "pregunta_promociones": false,
+            "pregunta_recomendaciones": true
+        },
+        "created": "2017-07-04T03:48:58.763Z",
+        "updated": "2017-07-04T03:50:56.444Z",
+        "metadata": null,
+        "next_step": {
+            "behavior": "jump_to",
+            "selector": "condition",
+            "dialog_node": "node_2_1499140250513"
+        },
+        "conditions": "#preguntar_por_encuestas",
+        "description": null,
+        "dialog_node": "Encuestas",
+        "previous_sibling": "Cierre"
+    }, {
+        "title": null,
+        "output": {},
+        "parent": null,
+        "context": {
+            "pregunta_promociones": true,
+            "pregunta_recomendaciones": false
+        },
+        "created": "2017-06-25T23:35:13.844Z",
+        "updated": "2017-07-04T03:49:55.544Z",
+        "metadata": null,
+        "next_step": {
+            "behavior": "jump_to",
+            "selector": "condition",
+            "dialog_node": "node_4_1498434748353"
+        },
+        "conditions": "#conocimiento_promociones",
+        "description": null,
+        "dialog_node": "Promociones",
+        "previous_sibling": "Saludo"
+    }, {
+        "title": null,
+        "output": {},
+        "parent": "Encuestas",
+        "context": null,
+        "created": "2017-07-04T03:50:51.370Z",
+        "updated": "2017-07-10T20:25:18.426Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "@ciudad",
+        "description": null,
+        "dialog_node": "node_2_1499140250513",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {},
+        "parent": "node_2_1499140250513",
+        "context": null,
+        "created": "2017-07-04T04:02:09.294Z",
+        "updated": "2017-07-04T04:05:38.039Z",
+        "metadata": null,
+        "next_step": {
+            "behavior": "jump_to",
+            "selector": "condition",
+            "dialog_node": "node_4_1499141014999"
+        },
+        "conditions": "#preferencia_de_clima",
+        "description": null,
+        "dialog_node": "Clima",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {},
+        "parent": "node_4_1499141014999",
+        "context": null,
+        "created": "2017-07-10T20:30:27.285Z",
+        "updated": "2017-07-10T20:45:39.143Z",
+        "metadata": null,
+        "next_step": {
+            "behavior": "jump_to",
+            "selector": "condition",
+            "dialog_node": "node_5_1499719510595"
+        },
+        "conditions": "#preferencia_de_periodo_del_dia",
+        "description": null,
+        "dialog_node": "node_4_1499718627597",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["Hola, estamos listos, ¿qué deseas que hagamos?"]
+            }
+        },
+        "parent": null,
+        "context": {
+            "city": "",
+            "weather": "",
+            "zip_code": "",
+            "anotherfield": "",
+            "time_of_the_day": "",
+            "pregunta_promociones": false,
+            "pregunta_recomendaciones": false
+        },
+        "created": "2017-06-25T20:35:31.346Z",
+        "updated": "2017-07-11T18:44:40.826Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "conversation_start",
+        "description": null,
+        "dialog_node": "inicializa_conversacion",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["Hola. ¿Cómo puedo ayudarle?", "Hola, soy Watson, ¿cómo puedo ayudarte?"],
+                "selection_policy": "random"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-06-23T19:11:01.026Z",
+        "updated": "2017-06-25T21:49:54.836Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "#saludo",
+        "description": null,
+        "dialog_node": "Saludo",
+        "previous_sibling": "inicializa_conversacion"
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["Vuelve pronto", "Fue un placer atenderte", "Hasta luego"],
+                "selection_policy": "random"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-06-23T19:23:54.489Z",
+        "updated": "2017-06-25T21:51:10.986Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "#despedida",
+        "description": null,
+        "dialog_node": "Cierre",
+        "previous_sibling": "Promociones"
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["No te entiendo, ¿me preguntas de nuevo?.", "Perdón, no te entiendo", "No entendí lo que me pediste", "Perdón, no entiendo", "Perdón, ¿a qué te refieres?"],
+                "selection_policy": "random"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-06-23T19:11:01.026Z",
+        "updated": "2017-06-25T21:56:33.254Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "anything_else",
+        "description": null,
+        "dialog_node": "En otras cosas",
+        "previous_sibling": "Encuestas"
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["De acuerdo, permiteme consultar las promociones para @ciudad "]
+            },
+            "action": {
+                "city": "@ciudad"
+            }
+        },
+        "parent": "Promociones",
+        "context": null,
+        "created": "2017-06-25T23:42:00.258Z",
+        "updated": "2017-07-04T03:52:06.022Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "@ciudad",
+        "description": null,
+        "dialog_node": "node_4_1498434748353",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["Muy bien, ¿Y de que momento del día buscas encuestas?"]
+            },
+            "action": {
+                "weather": "@clima"
+            }
+        },
+        "parent": "Clima",
+        "context": null,
+        "created": "2017-07-04T04:03:35.874Z",
+        "updated": "2017-07-11T00:03:06.366Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "@clima",
+        "description": null,
+        "dialog_node": "node_4_1499141014999",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["Perfecto, estoy consultando todas las encuestas que cubren los parámetros que solicitaste"]
+            },
+            "action": {
+                "age": "@sys-number"
+            }
+        },
+        "parent": "node_5_1499719510595",
+        "context": null,
+        "created": "2017-07-11T00:18:09.137Z",
+        "updated": "2017-07-11T00:20:36.094Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "@sys-number",
+        "description": null,
+        "dialog_node": "node_1_1499732288926",
+        "previous_sibling": null
+    }, {
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["Por último, ¿Qué edad buscas dentro de los encuestados?"]
+            },
+            "action": {
+                "time_of_the_day": "@momento_del_dia"
+            }
+        },
+        "parent": "node_4_1499718627597",
+        "context": null,
+        "created": "2017-07-10T20:45:10.548Z",
+        "updated": "2017-07-11T00:19:14.133Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": "@momento_del_dia",
+        "description": null,
+        "dialog_node": "node_5_1499719510595",
+        "previous_sibling": null
+    }, {
+        "type": "response_condition",
+        "title": null,
+        "output": {
+            "text": {
+                "values": ["De acuerdo, ¿Qué clima buscas dentro de las preferencias de los usuarios de @ciudad?"]
+            },
+            "action": {
+                "city": "@ciudad"
+            }
+        },
+        "parent": "node_2_1499140250513",
+        "context": null,
+        "created": "2017-07-10T20:25:18.031Z",
+        "updated": "2017-07-10T20:26:54.720Z",
+        "metadata": null,
+        "next_step": null,
+        "conditions": null,
+        "description": null,
+        "dialog_node": "node_1_1499718318328",
+        "previous_sibling": "Clima"
+    }],
+    "workspace_id": "657e4cf3-ad93-4746-9b74-fc5959ee48d6",
+    "counterexamples": []
+}
